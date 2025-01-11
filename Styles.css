@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF3E0; /* Warna krem */
+    color: #3E2723; /* Warna cokelat tua */
+}
+
+header {
+    background-color: #4B3D28; /* Warna cokelat gelap */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif; /* Gaya font untuk heading */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.hero {
+    background-image: url('coffee-background.jpg'); /* Ganti dengan gambar latar belakang vintage */
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.cta-button {
+    background-color: #FFC107; /* Kuning */
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.product {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparan putih */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4B3D28; /* Cokelat gelap */
+    color: white;
+}
