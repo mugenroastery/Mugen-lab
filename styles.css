@@ -2,13 +2,13 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FAF3E0;
-    color: #3E2723;
+    background-color: #FAF3E0; 
+    color: #3E2723; 
 }
 
 header {
-    background-color: #4B3D28;
-    color: white;
+    background-color: #D6C9A8; 
+    color: #3E2723; 
     padding: 20px;
     text-align: center;
     font-family: 'Playfair Display', serif;
@@ -25,24 +25,25 @@ nav ul li {
 }
 
 .hero {
-    background-image: url('IMG_7908.jpeg');
+    background-image: url('IMG_7908.jpeg'); 
     color: white;
     padding: 100px 20px;
     text-align: center;
-    background-size: cover;
-    background-position: center;
+    background-size: cover; 
+    background-position: center; 
 }
 
-.hero h1 {
-    font-size: 2.5em;
+.hero h1, .hero p {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px; 
 }
 
 .cta-button {
-    background-color: #FFC107;
+    background-color: #FFC107; 
     color: black;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
 }
 
 section {
@@ -50,9 +51,40 @@ section {
     text-align: center;
 }
 
+.product {
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%; 
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #4B3D28;
-    color: white;
+    background-color: #D6C9A8; 
+    color: #3E2723; 
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 1.8em; 
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em; 
+    }
+}
+
+@media (min-width: 769px) {
+    .hero h1 {
+        font-size: 2.5em; 
+    }
 }
