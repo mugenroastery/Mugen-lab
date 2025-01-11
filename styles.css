@@ -25,12 +25,12 @@ nav ul li {
 }
 
 .hero {
-    background-image: url('IMG_7908.jpeg'); /* Ganti dengan gambar yang sesuai */
+    background-image: url('IMG_7908.jpeg'); /* Menggunakan nama file */
     color: white;
     padding: 100px 20px;
     text-align: center;
-    background-size: cover;
-    background-position: center;
+    background-size: cover; /* Agar gambar menutupi seluruh area */
+    background-position: center; /* Agar gambar terpusat */
 }
 
 .hero h1 {
